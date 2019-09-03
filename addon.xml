@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.pydrive"
+       name="PyDrive"
+       version="1.3.1"
+       provider-name="JunYoung Gwak">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+	<import addon="script.module.six" version="1.11.0"/>
+	<import addon="script.module.googleapi" version="1.6.4" />
+	<import addon="script.module.oauth2client" version="4.1.2" />
+	<import addon="script.module.uritemplate" version="0.6" />
+	<import addon="script.module.httplib2" version="0.8.0" />
+	<import addon="script.module.yaml" version="3.11"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" /> <!-- entry to import this in other addons -->
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">PyDrive</summary>        
+    <description lang="en">Google Drive API made easy.</description>  
+    <platform>all</platform>
+    <language/>
+    <license>Apache2</license>
+    <forum></forum>
+    <website></website>
+    <source>https://github.com/gsuitedevs/PyDrive</source>
+    <email>jgwak@dreamylab.com</email>
+    <news>v8.4.1 (2017-11-28)</news>
+  </extension>
+</addon>
